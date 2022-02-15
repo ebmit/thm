@@ -1,5 +1,8 @@
 # thm
 ![](https://komarev.com/ghpvc/?username=ebmit)
 
-# This repository contains tryhackme write-ups.
+# REPO - building in progress ...
+
+# This repository contains ...
+
 # THANKS FOR PASSING BY, HAVE A FUN!
